@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "plugins": {
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-24T17:19:00.206Z",
+        "lastUpdated": "2026-01-24T17:19:00.206Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/feature-dev/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-01-24T17:19:28.114Z",
+        "lastUpdated": "2026-01-24T17:19:28.114Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-24T17:43:32.053Z",
+        "lastUpdated": "2026-01-24T17:43:32.053Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/ralph-loop/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-01-24T17:45:15.240Z",
+        "lastUpdated": "2026-01-24T17:45:15.240Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "swift-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/swift-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-01T12:13:41.494Z",
+        "lastUpdated": "2026-03-01T12:13:41.494Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ],
+    "slack@claude-plugins-official": [
+      {
+        "scope": "local",
+        "projectPath": "/Users/jerrywu/Documents/GoodNotes-5/Organizations/ent-admin-fe",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/slack/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-03-09T21:05:00.662Z",
+        "lastUpdated": "2026-03-09T21:05:00.662Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      },
+      {
+        "scope": "user",
+        "installPath": "/Users/jerrywu/.claude/plugins/cache/claude-plugins-official/slack/e30768372b41",
+        "version": "e30768372b41",
+        "installedAt": "2026-03-09T21:06:45.598Z",
+        "lastUpdated": "2026-03-09T21:06:45.598Z",
+        "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
+      }
+    ]
+  }
+}
