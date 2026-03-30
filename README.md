@@ -1,23 +1,34 @@
 # Den
 
-OpenClaw skills for VPS deployment.
+Claude Code config backup for machine transfer.
 
-## Structure
+## Install on new laptop
 
+```bash
+git clone git@github.com:jerrywu/Den.git
+cd Den/claude-config
+./restore.sh
 ```
-skills/
-  skill-name/
-    skill.md       # Skill definition
-```
 
-## Creating a Skill
+Then:
+1. Edit `~/.claude/settings.json` - add your `ANTHROPIC_AUTH_TOKEN`
+2. Reinstall plugins: `claude /install-plugin code-simplifier feature-dev typescript-lsp ralph-loop swift-lsp slack`
+3. Re-auth MCP servers (Notion, Jira, Figma)
 
-```markdown
----
-name: my-skill
-description: Short description
-user_invocable: true
----
+## What's included
 
-Skill instructions...
-```
+| Item | Description |
+|------|-------------|
+| `CLAUDE.md` | Global instructions (concise commits, git conventions, dev philosophy) |
+| `settings.json` | Env vars, permissions, hooks, MCP servers, enabled plugins |
+| `commands/` | `/complete-jira`, `/history`, `/pr-description`, `/prd-tasks` |
+| `agents/` | `frontend-code-reviewer` |
+| `.agents/skills/` | frontend-design, skill-creator, vercel-react-best-practices, web-design-guidelines, readme-blueprint-generator |
+| `cc-statusline-rs` | Custom statusline binary |
+| `green-giant.mp3` | Notification sound for Stop hook |
+
+## Not included
+
+- `~/.claude/projects/` - session history (machine-specific)
+- `~/.claude/plugins/cache/` - reinstallable from marketplace
+- Skills from other repos (academic-deep-research, research-agent, etc)
